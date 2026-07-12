@@ -1,0 +1,17 @@
+{
+  "name": "ai-chatbot-server",
+  "version": "1.0.0",
+  "description": "Simple Node/Express backend that proxies chat requests to Gemini API",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
