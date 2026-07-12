@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api || https://ai-chatbot-server-2jfxgzk20-hiteshrao15s-projects.vercel.app/api";
+const API_BASE_URL = "http://localhost:5000/api || https://ai-chatbot-server-2jfxgzk20-hiteshrao15s-projects.vercel.app";
 
 /**
  * Sends a message + conversation history to the backend and
